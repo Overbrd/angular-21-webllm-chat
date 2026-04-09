@@ -23,6 +23,10 @@ import { AiService } from './ai.service';
     {{ loading ? 'Thinking…' : 'Ask' }}
   </button>
 
+	<button type="button" (click)="stop()">
+	  {{ loading ? 'Stop' : 'Stop' }}
+	</button>
+
   <div style="margin-top:20px; padding:10px; background:#eee; min-height:60px;">
     <strong>AI Response:</strong>
     <div #responseBox style="white-space: pre-wrap;"></div>
@@ -119,7 +123,9 @@ const modelId = "Qwen2.5-0.5B-Instruct-q4f16_1-MLC";
 })
 export class ChatComponent {
   @ViewChild('responseBox') responseBox!: ElementRef<HTMLDivElement>;
-
+ stop() {
+  window.location.reload();
+ }
   input = '';
   loading = false;
 
