@@ -7,7 +7,8 @@ Live development URL (local):
 `http://localhost:4200/`
 
 Live Demo:  
-https://matthewlind.com/ai-chat/
+<a href="https://matthewlind.com/ai-chat/" target="_blank">Open the AI Chat App (new window)</a>
+
 ---
 
 ## 🚀 Features
