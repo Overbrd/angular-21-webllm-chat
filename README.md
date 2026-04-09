@@ -6,6 +6,8 @@ This project demonstrates real‑time token streaming, WebGPU‑accelerated infe
 Live development URL (local):  
 `http://localhost:4200/`
 
+Live Demo:  
+https://matthewlind.com/ai-chat/
 ---
 
 ## 🚀 Features
